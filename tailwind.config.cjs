@@ -1,9 +1,17 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		container: {
+			center: true
+		},
 		screens: {
 			xs: '375px',
-			xl: '1440px'
+			sm: '640px',
+			md: '768px',
+			lg: '1110px',
+			xl: '1280px'
 		},
 		colors: {
 			primary: 'hsl(180, 66%, 49%)',
