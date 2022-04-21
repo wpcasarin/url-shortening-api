@@ -9,7 +9,7 @@
 	{type}
 	class={`rounded-full bg-primary px-5 py-2 font-bold text-white transition-all hover:bg-primary-focus active:scale-105
 	${fluid && 'min-w-full'}
-	${large && 'text-lg'}`}
+	${large && 'text-xl px-10 py-[14px]'}`}
 >
 	{text}
 </button>
