@@ -1,8 +1,10 @@
 <script>
-	// your script goes here
+	import { NavBar } from '../components/layout/navbar';
 </script>
 
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<div class="container mt-10 sm:mt-14 xl:max-w-[1110px]">
+	<NavBar />
+</div>
 
 <style>
 	/* your styles go here */
