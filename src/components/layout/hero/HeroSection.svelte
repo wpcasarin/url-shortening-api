@@ -3,7 +3,7 @@
 	import { Button } from '../../buttons';
 </script>
 
-<section class="mt-6 flex flex-col-reverse md:mt-16 md:grid md:grid-cols-12">
+<section class="flex flex-col-reverse md:grid md:grid-cols-12">
 	<article class="col-start-1 col-end-7 flex flex-col gap-4 lg:justify-center">
 		<h1
 			class="mt-8 text-center text-4xl font-bold leading-tight text-neutral-700 md:text-left md:text-5xl md:leading-[1.1] lg:text-6xl xl:text-[75px]"
